@@ -24,7 +24,7 @@ class Pessoa {
 void main() {
   Pessoa pessoa = Pessoa();
 
-  pessoa.nome = '';
+  pessoa.nome = 'João';
   pessoa.idade = 30;
 
   if(pessoa.nome == '' || pessoa.idade <= 0) {
